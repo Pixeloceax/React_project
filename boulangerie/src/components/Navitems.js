@@ -1,26 +1,26 @@
 export const Navitems = [
     {
         id: 1,
-        title: 'nos produits',
-        url: '/',
+        title: 'Nos produits',
+        path: '/produits',
         cName: 'Nav-items'
     },
     {
         id: 2,
         title: 'Notre maison',
-        url: '/notre-maison',
+        path: '/maison',
         cName: 'Nav-items'
     },
     {
         id: 3,
         title: 'Equipe',
-        url: '/equipe',
+        path: '/equipe',
         cName: 'Nav-items'
     },
     {
         id: 4,
         title: 'Contact',
-        url: '/contact',
+        path: '/contact',
         cName: 'Nav-items'
     }
 ]

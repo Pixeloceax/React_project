@@ -11,13 +11,15 @@ const Navbar = () => {
         <>
             <nav>
                 <ul>
-                {Navitems.map((item) => {
-                    return (
-                        <li key={item.id} className={item.cName}>
-                            <Link to={item.path}>{item.name}</Link>
-                        </li>
-                    );
-                })}
+                    {Navitems.map((item, index) => {
+                        return (
+                            <li key={index}>
+                                <Link to={item.path} className={item.cName}>
+                                    {item.title}
+                                </Link>
+                            </li>
+                        );
+                    })}
                 </ul>
             </nav>
         </>
