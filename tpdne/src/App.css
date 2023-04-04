@@ -3,11 +3,14 @@ body {
   font-family: Arial, sans-serif;
   color: #fff;
   text-align: center;
+  margin: 0;
 }
 
 h1 {
   font-size: 3rem;
   margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .button {
@@ -19,6 +22,9 @@ h1 {
   margin: 1rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .button:hover {
@@ -29,6 +35,8 @@ h1 {
 .button.active {
   background-color: #fff;
   color: #20222e;
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.2);
 }
 
 hr {
@@ -42,6 +50,10 @@ hr {
   flex-direction: column;
   align-items: center;
   margin: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.2);
 }
 
 .user img {
@@ -55,4 +67,5 @@ hr {
 .user p {
   font-size: 1.5rem;
   margin: 1rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
